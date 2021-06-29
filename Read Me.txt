@@ -1,0 +1,2 @@
+The Web Application made using Node Js which is a open-source, cross-platform, back-end JavaScript runtime environment. The application uses npm and  express which is a back end web application framework for Node.js.
+In order to run the application you have to install these dependencies by running the project in command prompt and type install npm install. Then run the application on local http://localhost:3000/

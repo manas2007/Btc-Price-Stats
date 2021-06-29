@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assessmnet Test</title>
+  </head>
+  <body>
+  <form  action="/data" method="get">
+<div class="div">
+    <h2>BTC Price Statistics</h2>
+    <table>
+      <caption class="c"> Bitcoin Price Today</caption>
+      <tbody class="body">
+        <tr >
+          <th class="t">Name:</th>
+          <td class="d"><%= bitName %></td>
+        </tr>
+        <tr class="t">
+          <th class="t">Date</th>
+          <td class="d"><%= bitDate %></td>
+        </tr>
+        <tr class="t">
+          <th class="t">max_supply</th>
+          <td class="d"><%= bitMaxSupply %></td>
+        </tr>
+        <tr class="t">
+          <th class="t">circ_supply</th>
+          <td class="d"><%= bitCircSupply %></td>
+        </tr>
+        <tr class="t">
+          <th class="t">total_supply</th>
+          <td class="d"><%= bitTotalSupply %></td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="btn btn-primary"type="submit" name="button">Get</button>
+    </div>
+  </form>
+
+
+
+  </body>
+</html>

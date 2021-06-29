@@ -1,0 +1,68 @@
+
+html
+{
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+h2
+{
+  font-family: "Playfair Display" !important;
+  font-weight: bolder !important;
+  font-size: 4rem !important;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+h1
+{
+    font-family: "Playfair Display" !important;
+}
+
+.div
+{
+    line-height: 5rem;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+
+    background-color: #E8F6EF;
+
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+    border-radius: 30px;
+}
+.body
+{
+  line-height: 7rem;
+}
+
+.btn
+{
+    width: 40%;
+    margin-top: 30px;s
+}
+
+.c
+{
+    text-align: center;
+    font-size: 2rem;
+}
+.t
+{
+    font-size: 2rem;
+    color: grey;
+    padding-right: 100px;
+    padding-left: 80px
+}
+
+.d
+{
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+    padding-right: 20px;
+}
